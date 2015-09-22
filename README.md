@@ -111,7 +111,7 @@ var ticket = {
     }
   }
 };
-Freshdesk.createTicket(100, function(err, res) {
+Freshdesk.createTicket(ticket, function(err, res) {
   console.log("My Ticket is", res.body);
 });
 ```
